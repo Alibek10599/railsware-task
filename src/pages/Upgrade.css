@@ -1,0 +1,18 @@
+.question{
+    top: 29rem;
+    right: 30rem;
+    position: absolute;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #767676;
+
+    cursor: pointer;
+
+
+}

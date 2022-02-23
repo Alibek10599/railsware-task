@@ -4,8 +4,10 @@ function CardInput(props){
 
     return(
 
-        <input type="text" placeholder={props.placeholder} style={{
-            width: props.width
+        <input type={props.type} placeholder={props.placeholder} style={{
+            width: props.width,
+            marginLeft:props.left,
+            marginRight:props.right,
           }}>
             
         </input>

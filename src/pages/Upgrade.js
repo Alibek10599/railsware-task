@@ -6,12 +6,12 @@ function Upgrade(){
         <section className="form">
             <h1 className="form__title">Get Pro Account</h1>
             <img src={require('../assets/images/undraw_online_payments_luau 1.png')} alt="Upgrade-illustration" className="image-container"/>
-            <CardInput placeholder='Card Number'/>
-            <div>
-            <CardInput placeholder='MM/YY' width="165px"/>
-            <CardInput placeholder='CVV' width="165px"/>
+            <CardInput placeholder='Card Number' type="number"/>
+            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+            <CardInput placeholder='MM/YY' width="165px" right= "7px"/>
+            <CardInput placeholder='CVV' width="165px" type="number" left=" 7px"/>
             </div>
-            <p className="">What’s this?</p>
+            <p className="question">What’s this?</p>
             <CardInput placeholder='ZIP/Postal Code'/>
             <Button title="Upgrade" backgroundColor="#BF1541"/>
         </section>

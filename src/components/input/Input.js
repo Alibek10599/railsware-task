@@ -1,9 +1,10 @@
 import './Input.css'
-
+const assets = require('../../assets/assets.js');
 function Input(props){
+
     return (
         <span>
-            <img src={props.imagePath} alt="" className='icon'/>
+            <img src={assets[props.imagePath]} alt="" className='icon'/>
         <input type="text" placeholder={props.placeholder}>
             
         </input>
