@@ -6,7 +6,7 @@ function Upgrade(){
         <section className="form">
             <h1 className="form__title">Get Pro Account</h1>
             <img src={require('../assets/images/undraw_online_payments_luau 1.png')} alt="Upgrade-illustration" className="image-container"/>
-            <CardInput placeholder='Card Number' type="number"/>
+            <CardInput placeholder='Card Number' type="text"/>
             <div>
             <div style={{display: 'flex', justifyContent: 'space-between'}}>
             <CardInput placeholder='MM/YY' width="165px" right= "7px"/>
