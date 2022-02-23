@@ -9,7 +9,12 @@ span{
   top: 2px; 
   left: 5px; 
   z-index: 1; 
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  /* filter: invert(80%) sepia(0%) saturate(346%) hue-rotate(187deg) brightness(91%) contrast(80%); */
 }
+
+
 
 input{
     height: 50px;
@@ -33,8 +38,16 @@ input{
 input:hover{
     border: 1px solid #1A4F8B;
     border-radius: 5px;
+    
+}
+
+span:hover img{
+  filter: invert(22%) sepia(100%) saturate(1553%) hue-rotate(188deg) brightness(65%) contrast(88%);
 }
 
 input:focus::placeholder {
     color: #1A4F8B;
+    
   }
+
+  
