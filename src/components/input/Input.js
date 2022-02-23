@@ -1,7 +1,13 @@
 import './Input.css'
-function Input(name){
+
+function Input(props){
     return (
-        <input>{{name}}</input>
+        <span>
+            <img src={require('../../assets/svg/Lock icon.svg')} alt="" className='icon'/>
+        <input type="text" placeholder={props.placeholder}>
+            
+        </input>
+        </span>
     )
 }
 

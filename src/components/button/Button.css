@@ -18,10 +18,15 @@ text-align: center;
 
 border: #1A4F8B;
 
+color: #FFFFFF;
+
+cursor: pointer;
 
 }
 
 .btn:hover{
     background: #1A4F8B;
     color: white;
+
+    opacity: 0.8;
 }

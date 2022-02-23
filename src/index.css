@@ -15,7 +15,23 @@ code {
 .form{
   display: grid;
   justify-content: center;
-  gap: 36px;
+  gap: 2.25rem;
   align-items: center;
+  justify-items: center;
 
+}
+
+.image-container{
+  margin: auto;
+}
+
+.form__title{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin:0;
 }

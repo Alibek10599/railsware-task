@@ -1,0 +1,57 @@
+.link{
+    position: relative;
+    left: 7rem;
+    bottom: 1rem;
+    color: #1A4F8B;
+    text-decoration: none;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: right;
+    margin:0;
+}
+
+.social_title{
+    padding-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #B0B0B0;
+
+}
+
+.social_button{
+  margin: 0 auto; 
+  width: 656px; 
+  text-align: center
+}
+
+.facebook{
+    height: 40px;
+    width: 165px;
+    border-radius: 5px;
+    border: 1px solid #385C8E;
+    background: #385C8E;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 14px;
+
+}
+
+.google{
+    height: 40px;
+    width: 165px;
+    border-radius: 5px;
+    background: #F14436;
+    border: 1px solid #F14436;
+    color: #fff;
+    margin-right: 7px;
+}
