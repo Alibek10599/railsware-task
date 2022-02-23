@@ -1,0 +1,18 @@
+.social_title{
+    top: 12.5rem;
+    position: relative;
+}
+
+a{
+        color: #1A4F8B;
+        text-decoration: none;
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: right;
+        margin:0;
+}

@@ -28,13 +28,9 @@
 
 }
 
-.social_button{
-  margin: 0 auto; 
-  width: 656px; 
-  text-align: center
-}
 
 .facebook{
+    cursor: pointer;
     height: 40px;
     width: 165px;
     border-radius: 5px;
@@ -42,16 +38,25 @@
     background: #385C8E;
     border-radius: 5px;
     color: #fff;
-    margin-left: 14px;
+    margin-right: 7px;
 
 }
 
 .google{
+    cursor: pointer;
     height: 40px;
     width: 165px;
     border-radius: 5px;
     background: #F14436;
     border: 1px solid #F14436;
     color: #fff;
-    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.google:hover {
+    transform: scale(1.07);
+}
+
+.facebook:hover {
+    transform: scale(1.07);
 }
