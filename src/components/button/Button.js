@@ -1,7 +1,9 @@
 import './Button.css'
 function Button(props) {
     return (
-        <button className="btn"> {props.title}</button>
+        <button className="btn" style={{
+            backgroundColor: props.backgroundColor
+          }}> {props.title}</button>
     )
 
 }

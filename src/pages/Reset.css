@@ -1,4 +1,13 @@
-.social_title{
+.social_title_reset{
+    padding-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #B0B0B0;
     top: 12.5rem;
     position: relative;
 }
