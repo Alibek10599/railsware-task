@@ -15,7 +15,7 @@ function Upgrade(){
             <p className="question">What’s this?</p>
             <CardInput placeholder='ZIP/Postal Code'/>
             </div>
-            <Button title="Upgrade" backgroundColor="#BF1541"/>
+            <Button title="UPGRADE" backgroundColor="#BF1541"/>
         </section>
     )
 }
